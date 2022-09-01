@@ -1,4 +1,4 @@
-.container {
+/* .container {
   padding: 0 2rem;
 }
 
@@ -126,4 +126,11 @@
   .logo img {
     filter: invert(1);
   }
+} */
+
+/* giving styling using  tag is an error use pure classname or id in module css */
+
+.main_header {
+  color: rgb(52, 202, 202);
+  text-align: center;
 }

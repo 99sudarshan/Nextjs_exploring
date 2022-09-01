@@ -24,3 +24,18 @@ a {
     background: black;
   }
 }
+
+#main_div {
+  height: 100vh;
+  overflow: auto;
+}
+
+#main_div::before {
+  content: "";
+  position: absolute;
+  background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTB8fHByb2dyYW1taW5nJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60")
+    center center/cover no-repeat border-box;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}

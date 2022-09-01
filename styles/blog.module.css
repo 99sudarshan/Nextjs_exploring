@@ -1,0 +1,49 @@
+.card {
+  background: white;
+  padding: 1.3rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: 4px 6px 10px -2px #374151;
+  border-radius: 10px;
+  margin: 1rem 10rem;
+}
+
+.detail {
+  background: white;
+  padding: 1.3rem 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 6px 10px -2px #374151;
+  border-radius: 10px;
+  margin: 1rem 10rem;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  background: rgb(25, 147, 147);
+  color: white;
+  border-radius: 100%;
+}
+
+.title {
+  cursor: pointer;
+}
+
+.title:hover {
+  color: rgb(37, 140, 181);
+}
+
+.page {
+  background: red;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
